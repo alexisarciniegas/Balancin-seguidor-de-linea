@@ -1,0 +1,51 @@
+{
+  "grupo": "G2",
+  "fecha": "2026-11-17",
+  "version": 2,
+  "criterio_K_firmware": "por_sentido",
+  "nota": "Recta RPM = K·PWM − B por sentido. tau_s y retardo_s salen de las transiciones que no terminan en PWM 0. K_promedio y B_promedio_rpm son solo para comparar.",
+  "bateria_V": [
+    10.32
+  ],
+  "ensayos": [
+    "G2.log"
+  ],
+  "motores": {
+    "L": {
+      "K_adelante": 0.35204,
+      "B_adelante_rpm": 2.41048,
+      "zona_muerta_adelante_pwm": 10,
+      "K_atras": 0.3457,
+      "B_atras_rpm": 2.3698,
+      "zona_muerta_atras_pwm": 15,
+      "K_promedio": 0.34887,
+      "B_promedio_rpm": 2.39014,
+      "zona_muerta_promedio_pwm": 12,
+      "tau_s": 0.02739,
+      "retardo_s": 0.0,
+      "tau_freno_s": 0.01728,
+      "retardo_freno_s": 0.00283,
+      "K_incremental_girando_adelante": 0.36084,
+      "K_incremental_girando_atras": 0.3647,
+      "cuentas_vuelta": 3290.0
+    },
+    "R": {
+      "K_adelante": 0.37817,
+      "B_adelante_rpm": 2.28063,
+      "zona_muerta_adelante_pwm": 15,
+      "K_atras": 0.38553,
+      "B_atras_rpm": 2.59838,
+      "zona_muerta_atras_pwm": 20,
+      "K_promedio": 0.38185,
+      "B_promedio_rpm": 2.4395,
+      "zona_muerta_promedio_pwm": 18,
+      "tau_s": 0.02501,
+      "retardo_s": 0.0,
+      "tau_freno_s": 0.01403,
+      "retardo_freno_s": 0.0035,
+      "K_incremental_girando_adelante": 0.37726,
+      "K_incremental_girando_atras": 0.38648,
+      "cuentas_vuelta": 3290.0
+    }
+  }
+}
